@@ -1,20 +1,11 @@
-# Nazwa Twojego Projektu
+# Smak domu
 
-![Logo Projektu](ścieżka/do/logo.png)
+![Logo Projektu](pysznepl/logo.png)
 
 ## Opis
 
-Krótki opis projektu, zawierający główne cele, funkcje i korzyści z jego użycia.
+Chcieliśmy pokazać, że coś umiemy i że pysznepl skopiował od nas
 
 ## Spis Treści
 
-- [Instalacja](#instalacja)
-- [Jak zacząć](#jak-zacząć)
-- [Dokumentacja](#dokumentacja)
-- [Przykłady Użycia](#przykłady-użycia)
-- [Wkład](#wkład)
-- [Licencja](#licencja)
-
-## Instalacja
-
-Opisz kroki niezbędne do instalacji projektu. Możesz również zawrzeć przykłady komend do instalacji zależności.
+- [Instalacja](#kys)
