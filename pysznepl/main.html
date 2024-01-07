@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Firma</a></li>
+            <li><a href="#">Restauracje</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <svg class="bars" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+        </svg>
+    </header>
+    <!-- <nav>
+        <ul class="menu">
+            <li><a href="#">Firma</a></li>
+            <li>
+                <a>Restauracje</a>
+                <ul class="submenu">
+                    <li><a>lorem</a></li>
+                    <li><a>lorem</a></li>
+                    <li><a>lorem</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <svg class="bars" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+        </svg>
+
+    </nav> -->
+
+    <div class="container">
+        <section class="one">
+            <div class="container">
+                <div class="left">
+                    <iframe name="mpa" id="mpa"
+                        src="https://www.google.com/maps/d/u/2/embed?mid=1Q7QzNvZj6EKF1ETRAr36me8YIlsgwmI&ehbc=2E312F"
+                        width="640" height="480"></iframe>
+                </div>
+                <div class="right">
+                    <img src="logo-removebg-preview.png" alt="logo">
+                </div>
+            </div>
+        </section>
+        <section class="two">
+            <div class="how-to-order">
+                <span>Jak zamawiać?</span>
+                <span>To proste.</span>
+            </div>
+            <div class="how-to-order-container">
+                <div class="card">
+                    <img src="marker.png" alt="">
+                    <span>Powiedz nam gdzie się znajdujesz</span>
+                    <p>Pokażemy ci sklepy i restauracje w okolicy </p>
+                </div>
+                <div class="card">
+                    <img src="hamburger.png" alt="">
+                    <span>Znajdź to, czego potrzebujesz</span>
+                    <p>Szukaj produktów, jedzenia, sklepów i różnyh typów kuchni</p>
+                </div>
+                <div class="card">
+                    <img src="room-service.png" alt="">
+                    <span>Zamów z dostawą lub odbiorem</span>
+                    <p>Poinformujemy cię o postępach w realizacji zamówienia</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="three">
+            <div class="left">
+                <div class="ttl">
+                    <h2>Pobierz aplikację</h2>
+                    <h3>Zamawiaj jedzenie gdziekolwiek jesteś!</h3>
+                </div>
+                <div class="pobierz-apl">
+                    <a href="#" class="playstore-button">
+                        <span class="icon">
+                            <svg fill="currentcolor" viewBox="-52.01 0 560.035 560.035"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655">
+                                    </path>
+                                </g>
+                            </svg>
+                        </span>
+                        <span class="texts">
+                            <span class="text-1">Download from</span>
+                            <span class="text-2">App store</span>
+                        </span>
+                    </a>
+                    <a class="playstore-button" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                            <path
+                                d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z">
+                            </path>
+                        </svg>
+                        <span class="texts">
+                            <span class="text-1">GET IT ON</span>
+                            <span class="text-2">Google Play</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="chuj.png" alt="">
+            </div>
+        </section>
+        <section class="four">
+            <div class="container">
+                <div class="hdr">
+                    <span>SmakDomu.pl</span>
+                    <h2>Zamawiaj u najlepszych</h2>
+                </div>
+                <div class="card-container">
+                    <div class="cards">
+                        <img src="award.png" alt="">
+                        <span>Programy lojalnościowe</span>
+                        <div class="content">
+                            <p>Zbieraj punkty i wymieniaj je na świetne oferty</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="badge.png" alt="">
+                        <span>Nasza gwarancja</span>
+                        <div class="content">
+                            <p>Najlepsza usługa i prawdziwe opinie klientów</p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <img src="review.png" alt="">
+                        <span>Co zyskujesz</span>
+                        <div class="content">
+                            <p>12 000 miejsc do wyboru</p>
+                            <p>Płać kartą lub gotówką</p>
+                            <p>Zamawiaj kiedy chcesz i gdzie chcesz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="five">
+            <div class="container">
+                <div class="left">
+                    <span>Informacje na temat serwisu znajdziesz
+                        smakdomu.pl i najnowsze trendy
+                        związane z jedzeniem i lifestylem
+                        znajdziesz na naszym blogu smakdomu.pl</span>
+                    <a href="#"><button class="guzik"> Przejdź do bloga
+                        </button></a>
+                </div>
+                <div class="right">
+                    <img src="laptop.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="six">
+            <div class="container">
+                <div class="left">
+                    <!-- <div class="lista">
+                        <div class="dropdown">
+                            <span>Jakość</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">Kebab</a></li>
+                                    <li><a href="#">Chińska</a></li>
+                                    <li><a href="#">Wegańska</a></li>
+                                    <li><a href="#">Sałatki</a></li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Desery</a></li>
+                                    <li><a href="#">Pizza</a></li>
+                                    <li><a href="#">Zakupy online</a></li>
+                                </ul>
+                            </div>
+                          </div><div class="dropdown">
+                            <span>Jakość</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">Kebab</a></li>
+                                    <li><a href="#">Chińska</a></li>
+                                    <li><a href="#">Wegańska</a></li>
+                                    <li><a href="#">Sałatki</a></li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Desery</a></li>
+                                    <li><a href="#">Pizza</a></li>
+                                    <li><a href="#">Zakupy online</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <span>Jakość</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" rotate="180deg" height="16" width="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                            
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">Kebab</a></li>
+                                    <li><a href="#">Chińska</a></li>
+                                    <li><a href="#">Wegańska</a></li>
+                                    <li><a href="#">Sałatki</a></li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Desery</a></li>
+                                    <li><a href="#">Pizza</a></li>
+                                    <li><a href="#">Zakupy online</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <span>Jakość</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                            
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#">Kebab</a></li>
+                                    <li><a href="#">Chińska</a></li>
+                                    <li><a href="#">Wegańska</a></li>
+                                    <li><a href="#">Sałatki</a></li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Desery</a></li>
+                                    <li><a href="#">Pizza</a></li>
+                                    <li><a href="#">Zakupy online</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                    </div> -->
+                    <div class="lista">
+                        <span>Jakość</span>
+                        <ul>
+                            <li><a href="#">Kebab</a></li>
+                            <li><a href="#">Wegańska</a></li>
+                            <li><a href="#">Chińska</a></li>
+                            <li><a href="#">Sałatki</a></li>
+                            <li><a href="#">Pizza</a></li>
+                        </ul>
+                    </div>
+                    <div class="lista">
+                        <span>Miasta</span>
+                        <ul>
+                            <li><a href="#">Warszawa</a></li>
+                            <li><a href="#">Kraków</a></li>
+                            <li><a href="#">Gdańsk</a></li>
+                            <li><a href="#">Wrocław</a></li>
+                            <li><a href="#">Łodź</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="logo-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#">Poleć restaurację</a></li>
+                <li><a href="#">Oferty pracy</a></li>
+                <li><a href="#">Regulamin</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Polityka prywatności</a></li>
+                <li><a href="#">Informacja prawna</a></li>
+            </ul>
+        </footer>
+        <div class="blur">
+            <div class="menupp">
+                <div class="hdr">
+                    <svg class="iks" xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512">
+                        <path
+                            d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" />
+                    </svg>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li><a href="index.php">Koszyk</a></li>
+                        <li><a href="login.php">Zaloguj się</a></li>
+                        <li><a href="register.php">Zarejestruj się</a></li>
+                        <li><a href="#">Napisz do nas</a></li>
+                    </ul>
+                    <!-- <ul class="mobilelist">
+                        <li><a href="#">Restauracje</a></li>
+                        <li><a href="#">Firma</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+                </path>
+            </svg>
+        </button>
+    </div>
+
+
+
+
+    <script>
+        let blr = document.querySelector('.blur');
+        let c = document.querySelector('.menupp');
+        let k = document.querySelector('.bars');
+        let t = document.querySelector('.iks');
+        // var dropdowns = document.querySelectorAll(".dropdown");
+
+        // dropdowns.forEach(function(dropdown) {
+        //     dropdown.addEventListener("click", function() {
+        //     var dropdownContent = dropdown.querySelector(".dropdown-content");
+        //     var arrow = dropdown.querySelector(".arrow");
+
+        //     if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+        //         dropdownContent.style.display = "inline";
+        //         arrow.style.transform = "rotate(0deg)";
+        //     } else {
+        //         dropdownContent.style.display = "none";
+        //         arrow.style.transform = "rotate(180deg)";
+        //     }
+        //     });
+        // });
+
+        k.addEventListener('click', (e) => {
+            blr.style.display = 'flex'
+            c.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        });
+        t.addEventListener('click', (e) => {
+            c.style.display = 'none';
+            document.body.style.overflowX = 'hidden';
+            document.body.style.overflowY = 'scroll'
+            blr.style.display = 'none';
+        });
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+</body>
+
+</html>
